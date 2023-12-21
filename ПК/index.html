@@ -7,24 +7,65 @@
         <link rel="icon" type="images/x-icon" href="Fm.ico">
     </head>
     <style>
+                @keyframes gradient {
+            0% {
+                background-position: 0% 100%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 100%;
+            }
+        }
         body {
-            background-color: rgb(240, 226, 187);
+            height: 100vh;
+            background: linear-gradient(to top left, rgb(240, 226, 187), rgb(212, 75, 75));
+            background-size: 300% 300%;
+            animation: gradient 5s ease infinite;
         }
-        .FlameMaster {
-            min-width: 200px;
-            max-width: 500px;
-            height: 50px;
-            background-color: rgb(212, 75, 75);
-            top: 10px;
-            left: 15px;
-            border-radius: 25px;
-            border: 2px solid rgb(148, 26, 26);
-            display: flex;
-        }
-        .p1 {
-            font-size: 50px;
-            margin: -3px auto 0px auto;
-        }
+            .FlameMaster {
+                min-width: 200px;
+                max-width: 500px;
+                height: 50px;
+                background-color: rgb(212, 75, 75);
+                top: 10px;
+                left: 15px;
+                border-radius: 25px;
+                border: 2px solid rgb(148, 26, 26);
+                display: flex;
+            }
+                .p1 {
+                font-size: 50px;
+                margin: -3px auto 0px auto;
+                }
+            .tovar1-1 {
+                width: 500px;
+                height: 825px;
+                background-color: rgb(212, 75, 75);
+                margin: 25px 0px;
+                border-radius: 25px;
+                border: 2px solid rgb(148, 26, 26);
+                display: flex;
+            }
+            .tovar1-2 {
+                width: 500px;
+                height: 825px;
+                background-color: rgb(212, 75, 75);
+                margin: -855px 670px;
+                border-radius: 25px;
+                border: 2px solid rgb(148, 26, 26);
+                display: flex;
+            }
+            .tovar1-3 {
+                width: 500px;
+                height: 825px;
+                background-color: rgb(212, 75, 75);
+                margin: 25px 1330px;
+                border-radius: 25px;
+                border: 2px solid rgb(148, 26, 26);
+                display: flex;
+            }
     </style>
     <body>
         <div class="FlameMaster">
@@ -32,5 +73,20 @@
                 Flame Master
             </p>
         </div>
+        <a>
+            <div class="tovar1-1">
+                
+            </div>
+        </a>
+        <a>
+            <div class="tovar1-2">
+
+            </div>
+        </a>
+        <a>
+            <div class="tovar1-3">
+
+            </div>
+        </a>
     </body>
 </html>
